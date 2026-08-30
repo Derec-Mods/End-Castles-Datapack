@@ -1,0 +1,23 @@
+{
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:phantom"
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/end_castle/spawner_phantom",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 5,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "total_mobs": 7
+}

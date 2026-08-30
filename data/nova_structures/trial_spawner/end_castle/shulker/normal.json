@@ -1,0 +1,27 @@
+{
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:shulker"
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/end_castle/spawner_shulker",
+      "weight": 4
+    },
+    {
+      "data": "nova_structures:keys/end_castle_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 1,
+  "simultaneous_mobs_added_per_player": 0,
+  "total_mobs_added_per_player": 0,
+  "total_mobs": 1
+}
