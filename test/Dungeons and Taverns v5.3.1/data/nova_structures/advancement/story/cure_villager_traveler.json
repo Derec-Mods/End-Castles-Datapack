@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.librarian_traveler.title",
+      "fallback": "Pages of the Wanderer"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.librarian_traveler",
+      "fallback": "Trade for a Novice Librarian's exclusive book found via taking them to a Shrine, Shrine Tower, or Bunker"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:adventure/find_shrine",
+  "criteria": {
+    "dnt_trade_enchant_traveler": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "structures": "#nova_structures:offers_trades_traveler"
+          }
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/traveler"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dnt_trade_enchant_traveler"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

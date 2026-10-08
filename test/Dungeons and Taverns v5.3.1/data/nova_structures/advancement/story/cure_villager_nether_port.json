@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.librarian_nether_port.title",
+      "fallback": "Logs of the Port"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.librarian_nether_port",
+      "fallback": "Trade for a Novice Librarian's exclusive book found via taking them to the Nether Port"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:nether/find_port",
+  "criteria": {
+    "dnt_trade_enchant_port": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "structures": "#nova_structures:offers_trades_port"
+          }
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/port"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dnt_trade_enchant_port"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "nova_structures:root",
+  "criteria": {
+    "use_chart": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nova_structures:using_chart": true
+            }
+          }
+        },
+        "item": {
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [],
+              "strings": [
+                "dnt:chart"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:chart_unfold"
+  }
+}

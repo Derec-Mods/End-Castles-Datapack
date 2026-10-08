@@ -30,7 +30,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 10,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:crossbow"

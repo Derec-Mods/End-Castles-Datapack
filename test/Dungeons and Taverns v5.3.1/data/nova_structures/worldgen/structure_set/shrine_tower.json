@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "nova_structures:shrine_tower",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"spacing": 150,
+		"separation": 100,
+		"salt": 78409300,
+		"type": "minecraft:random_spread"
+	}
+}

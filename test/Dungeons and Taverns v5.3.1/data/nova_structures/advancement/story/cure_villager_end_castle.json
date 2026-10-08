@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.librarian_end_castle.title",
+      "fallback": "Records of the Void"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.librarian_end_castle",
+      "fallback": "Trade for a Novice Librarian's exclusive book found via taking them to the End Castle"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:end/find_end_castle",
+  "criteria": {
+    "dnt_trade_enchant_end": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "structures": "#nova_structures:offers_trades_end"
+          }
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/end"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },  
+  "requirements": [
+    [
+      "dnt_trade_enchant_end"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

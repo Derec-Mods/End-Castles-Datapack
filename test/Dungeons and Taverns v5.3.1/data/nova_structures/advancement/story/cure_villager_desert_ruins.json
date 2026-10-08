@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.librarian_desert_ruins.title",
+      "fallback": "Papyrus of the Sands"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.librarian_desert_ruins",
+      "fallback": "Trade for a Novice Librarian's exclusive book found via taking them to the Desert Ruins"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:adventure/find_desert_ruins",
+  "criteria": {
+    "dnt_trade_enchant_desert": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "structures": "#nova_structures:offers_trades_desert"
+          }
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/desert"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dnt_trade_enchant_desert"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

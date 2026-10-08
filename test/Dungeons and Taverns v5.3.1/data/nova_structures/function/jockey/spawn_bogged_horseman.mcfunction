@@ -1,0 +1,2 @@
+summon zombie_horse ~ ~ ~ {PersistenceRequired:1b,equipment:{body:{id:"copper_horse_armor",count:1},},drop_chances:{body:0.085},Passengers:[{id:"minecraft:bogged",PersistenceRequired:1b,equipment:{mainhand:{id:"bow",count:1,components:{"minecraft:enchantments":{"minecraft:power":2}}},head:{id:"iron_helmet",count:1,components:{"minecraft:unbreakable":{},"minecraft:enchantments":{"minecraft:protection":3,"minecraft:vanishing_curse":1}}}}}]}
+kill @s

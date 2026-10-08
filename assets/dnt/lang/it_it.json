@@ -1,0 +1,19 @@
+{
+  "advancement.dnt.end.find_end_castle": "Sfida il castello dell'End",
+  "advancement.dnt.end.find_end_castle.title": "Occhio spiato",
+  "advancement.dnt.end.find_end_lighthouse": "Trova il faro dell'End",
+  "advancement.dnt.end.find_end_lighthouse.title": "La luce alla fine del gioco",
+  "advancement.dnt.end.find_end_ship": "Trova una nave solitaria nell'End",
+  "advancement.dnt.end.find_end_ship.title": "In transito",
+  "advancement.dnt.end.kill_phantom_boss.title": "Soffri di vertigini?",
+  "advancement.dnt.end.kill_phantom_boss": "Uccidi l'infestazione del castello dell'End",
+  "advancement.dnt.story.librarian_end_castle": "Fai salire di livello un bibliotecario alle prime armi nel castello dell'End, quindi commercia per ottenere il suo libro esclusivo",
+  "advancement.dnt.story.librarian_end_castle.title": "Documenti dell'abisso",
+  "item.dnt.end_castle_key": "Chiave del castello dell'End",
+  "item.dnt.end_ship_key": "Chiave della nave dell'End",
+  "item.dnt.chart.end_castle": "Cartina del castello dell'End",
+  "item.dnt.filled_map.end_castle": "Mappa dell'esploratore del castello dell'End",
+  "structure.dnt.end_castle": "Castello dell'End",
+  "structure.dnt.end_lighthouse": "Faro dell'End",
+  "structure.dnt.end_ship": "Nave dell'End"
+}

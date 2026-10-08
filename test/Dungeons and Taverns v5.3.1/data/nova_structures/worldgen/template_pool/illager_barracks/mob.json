@@ -1,0 +1,78 @@
+{
+	"name": "nova_structures:illager_camp_fire",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/mobs/evoker",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jockeys/ravager_jockey",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/mobs/pillager",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/mobs/pillager_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/mobs/vindicator",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/mobs/vindicator_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/mobs/witch",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/mobs/witch_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		}
+	]
+}

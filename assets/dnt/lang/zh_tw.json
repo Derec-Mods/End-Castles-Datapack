@@ -1,0 +1,21 @@
+{
+  "advancement.dnt.loot_bug_enchant": "你拿到了一本包含僅用於函數調用魔咒的附魔書。由於它並不適用於玩家，相關魔咒在你的物品欄中被替換成了節肢剋星！",
+  "advancement.dnt.loot_bug_enchant.title": "為什麼會在這裡呢？",
+  "advancement.dnt.end.find_end_castle": "挑戰終界城堡",
+  "advancement.dnt.end.find_end_castle.title": "隔城有眼",
+  "advancement.dnt.end.find_end_lighthouse": "找到終界燈塔",
+  "advancement.dnt.end.find_end_lighthouse.title": "在遊戲盡頭的一束光",
+  "advancement.dnt.end.find_end_ship": "找到一艘孤獨的終界船舶",
+  "advancement.dnt.end.find_end_ship.title": "航行中...",
+  "advancement.dnt.end.kill_phantom_boss": "殺死終界城堡的夜魅頭目",
+  "advancement.dnt.end.kill_phantom_boss.title": "恐高嗎？",
+  "advancement.dnt.story.librarian_end_castle": "在終界城堡中，與一位新手圖書管理員村民交易，並在其升級後與他們交易其獨特附魔書",
+  "advancement.dnt.story.librarian_end_castle.title": "虛空之書",
+  "item.dnt.end_castle_key": "終界城堡鑰匙",
+  "item.dnt.end_ship_key": "終界船舶鑰匙",
+  "item.dnt.chart.end_castle": "終界城堡地圖卷軸",
+  "item.dnt.filled_map.end_castle": "終界城堡地圖",
+  "structure.dnt.end_castle": "終界城堡",
+  "structure.dnt.end_lighthouse": "終界燈塔",
+  "structure.dnt.end_ship": "終界船舶"
+}

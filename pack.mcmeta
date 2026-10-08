@@ -1,6 +1,13 @@
 {
-	"pack": {
-		"pack_format": 71,
-		"description": "Also works as a resourcepack to give custom textures"
-	}
+  "pack": {
+    "description": "Dungeons and Taverns End Castle Standalone (no custom player enchantments)",
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": [
+      107,
+      1
+    ]
+  }
 }

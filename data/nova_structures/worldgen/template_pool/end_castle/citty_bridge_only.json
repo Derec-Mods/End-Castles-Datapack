@@ -28,15 +28,6 @@
 				"projection": "rigid",
 				"processors": "minecraft:empty"
 			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"location": "nova_structures:end_castle/bridge/bridge_a_4",
-				"projection": "rigid",
-				"processors": "minecraft:empty"
-			}
 		}
 	]
 }

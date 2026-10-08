@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/kill_dragon",
+  "parent": "minecraft:end/root",
   "criteria": {
     "a": {
       "trigger": "minecraft:entity_hurt_player",
@@ -12,7 +12,7 @@
         "damage": {
           "blocked": false,
           "source_entity": {
-            "type": "minecraft:phantom",
+            "entity_type": "minecraft:phantom",
             "nbt": "{Tags:[\"phantom_boss\"]}"
           }
         }

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.librarian_lone_citadel.title",
+      "fallback": "Books of the Snow"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.librarian_lone_citadel",
+      "fallback": "Trade for a Novice Librarian's exclusive book found via taking them to the Lone Citadel"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:adventure/find_lone_citadel",
+  "criteria": {
+    "dnt_trade_enchant_snowy": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "structures": "#nova_structures:offers_trades_snowy"
+          }
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/snowy"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dnt_trade_enchant_snowy"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

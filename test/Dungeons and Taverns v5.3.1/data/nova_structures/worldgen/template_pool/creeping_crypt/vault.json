@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:creeping_crypt/vault",
+	"fallback": "nova_structures:creeping_crypt/vault",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/cc_vault",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		}
+	]
+}

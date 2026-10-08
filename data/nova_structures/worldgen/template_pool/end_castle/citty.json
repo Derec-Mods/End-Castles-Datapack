@@ -165,15 +165,6 @@
 			}
 		},
 		{
-			"weight": 10,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"location": "nova_structures:end_castle/bridge/bridge_a_4",
-				"projection": "rigid",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
 			"weight": 3,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
@@ -340,15 +331,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"location": "nova_structures:end_castle/bridge/bridge_b_3_t-curve",
-				"projection": "rigid",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 10,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"location": "nova_structures:end_castle/bridge/bridge_b_4",
 				"projection": "rigid",
 				"processors": "minecraft:empty"
 			}
@@ -745,15 +727,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"location": "nova_structures:end_castle/house/house_7",
-				"projection": "rigid",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 30,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"location": "nova_structures:end_castle/house/house_8",
 				"projection": "rigid",
 				"processors": "minecraft:empty"
 			}

@@ -1,0 +1,123 @@
+{
+	"name": "minecraft:jungle_path",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_crossroad",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_curve",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_large_odd_plot",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_large_plot",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_odd_crossroad",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_small_1_plot",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_small_2_plots",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_small_cross",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_small_curve",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_small_odd",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_small_odd_plot",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_small_t-cross",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_t-cross_plot",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_birch"
+			}
+		}
+	]
+}

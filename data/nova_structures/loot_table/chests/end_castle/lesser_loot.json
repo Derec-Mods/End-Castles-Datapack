@@ -112,7 +112,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:name_tag",
+          "name": "minecraft:lapis_lazuli",
           "weight": 5
         },
         {
@@ -202,7 +202,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_helmet"
@@ -213,7 +213,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_chestplate"
@@ -224,7 +224,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_leggings"
@@ -235,7 +235,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_boots"
@@ -246,7 +246,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_sword"
@@ -256,8 +256,19 @@
           "functions": [
             {
               "function": "enchant_with_levels",
+              "levels": 25,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_spear"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_axe"
@@ -268,7 +279,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_sword"
@@ -278,8 +289,19 @@
           "functions": [
             {
               "function": "enchant_with_levels",
+              "levels": 25,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_spear"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:crossbow",
@@ -289,7 +311,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "options": "#nova_structures:gravity",
+              "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_randomly"
             }
           ],

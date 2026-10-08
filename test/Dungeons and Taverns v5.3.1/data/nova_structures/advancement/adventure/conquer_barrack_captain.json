@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle",
+      "components": {
+        "minecraft:ominous_bottle_amplifier": 4
+      }
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.conquer_barrack_captain.title",
+      "fallback": "Harbinger"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.conquer_barrack_captain",
+      "fallback": "Their Liege is coming"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "nova_structures:adventure/find_illager_barracks",
+  "criteria": {
+    "defeat_barrack_captain": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:evoker",
+          "nbt": "{Tags:[\"dnt_barrack_captain\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:dnt_barrack_captain"
+  }
+}

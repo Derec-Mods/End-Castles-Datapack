@@ -1,0 +1,51 @@
+{
+	"name": "nova_structures:creeping_crypt/spawner",
+	"fallback": "nova_structures:creeping_crypt/spawner",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_creeper",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_zombie",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_spider",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_mobgroup",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		}
+	]
+}

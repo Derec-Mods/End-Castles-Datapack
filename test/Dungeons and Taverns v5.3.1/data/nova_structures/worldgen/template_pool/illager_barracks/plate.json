@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:illager_camp_fire",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/main/illager_barracks_feature_platform",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		}
+	]
+}

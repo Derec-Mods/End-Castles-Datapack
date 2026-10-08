@@ -1,0 +1,33 @@
+{
+	"name": "nova_structures:remnant/bridge_remant",
+	"fallback": "nova_structures:remnant/stone_bridge_piece_fallback",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/bridge_remnant_end",
+				"projection": "rigid",
+				"processors": "nova_structures:remnantification"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/big_bridge_remnant_end_a",
+				"projection": "rigid",
+				"processors": "nova_structures:remnantification"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/big_bridge_remnant_end_b",
+				"projection": "rigid",
+				"processors": "nova_structures:remnantification"
+			}
+		}
+	]
+}

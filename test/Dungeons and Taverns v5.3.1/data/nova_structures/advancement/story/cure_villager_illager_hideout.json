@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.librarian_illager.title",
+      "fallback": "Secrets of the Illager"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.librarian_illager",
+      "fallback": "Trade for a Novice Librarian's exclusive book found via taking them to the Illager Manor or Illager Hideout"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:adventure/find_illager_manor",
+  "criteria": {
+    "dnt_trade_enchant_illager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "structures": "#nova_structures:offers_trades_illager"
+          }
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/illager"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dnt_trade_enchant_illager"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

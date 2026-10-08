@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye"
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.find_witch_huts.title",
+      "fallback": "Couple of Covens"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.find_witch_huts",
+      "fallback": "Step inside both kinds of Witch Huts"
+    }
+  },
+  "parent": "nova_structures:adventure/find_all_illager_structures",
+  "criteria": {
+    "find_mangrove_witch_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "nova_structures:mangrove_witch_hut"
+          }
+        }
+      }
+    },
+    "find_swamp_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:swamp_hut"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "find_mangrove_witch_hut"
+    ],
+    [
+      "find_swamp_hut"
+    ]
+  ]
+}

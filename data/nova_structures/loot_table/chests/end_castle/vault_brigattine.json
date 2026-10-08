@@ -43,7 +43,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_helmet"
@@ -54,7 +54,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_chestplate"
@@ -65,7 +65,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_leggings"
@@ -76,7 +76,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 20,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_boots"
@@ -87,7 +87,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_sword"
@@ -98,7 +98,18 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_spear"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:diamond_axe"
@@ -109,7 +120,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_helmet"
@@ -120,7 +131,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_chestplate"
@@ -131,7 +142,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_leggings"
@@ -142,7 +153,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_boots"
@@ -153,7 +164,7 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_sword"
@@ -164,10 +175,33 @@
             {
               "function": "enchant_with_levels",
               "levels": 30,
-              "options": "#nova_structures:structure/end"
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_spear"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:iron_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "weight": 4
         }
       ],
       "rolls": 1
@@ -225,7 +259,18 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "options": "#nova_structures:gravity",
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_randomly"
             }
           ],
@@ -237,10 +282,11 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "#nova_structures:wax_wings"
+              "options": "#minecraft:on_random_loot"
             }
           ],
-          "name": "minecraft:book"
+          "name": "minecraft:book",
+          "weight": 4
         }
       ]
     },

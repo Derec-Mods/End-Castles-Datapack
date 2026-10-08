@@ -1,0 +1,22 @@
+{
+	"structures": [
+		{
+			"structure": "nova_structures:undead_crypt",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:creeping_crypt",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:catacomb",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"spacing": 50,
+		"separation": 25,
+		"salt": 96586859,
+		"type": "minecraft:random_spread"
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"name": "nova_structures:illager_camp_fire",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/main/illager_barracks_main_2",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/main/illager_barracks_main_3",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/main/illager_barracks_main_4",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/main/illager_barracks_main_5",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/main/illager_barracks_main_6",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		}
+	]
+}

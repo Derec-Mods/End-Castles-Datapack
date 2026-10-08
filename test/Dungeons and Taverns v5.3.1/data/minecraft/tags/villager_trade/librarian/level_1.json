@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "nova_structures:librarian/1/secret_desert_outreach",
+    "nova_structures:librarian/1/secret_donjon_soul_speed",
+    "nova_structures:librarian/1/secret_end_aerials_bane",
+    "nova_structures:librarian/1/secret_end_gravity",
+    "nova_structures:librarian/1/secret_end_wax_wings",
+    "nova_structures:librarian/1/secret_illager_illagers_bane",
+    "nova_structures:librarian/1/secret_jungle_photosynthesis",
+    "nova_structures:librarian/1/secret_keep_hydro_veil",
+    "nova_structures:librarian/1/secret_keep_swift_soar",
+    "nova_structures:librarian/1/secret_keep_wither_coated",
+    "nova_structures:librarian/1/secret_pale_spiteful",
+    "nova_structures:librarian/1/secret_port_swift_soar",
+    "nova_structures:librarian/1/secret_sealing_aerials_bane",
+    "nova_structures:librarian/1/secret_sealing_ghasted",
+    "nova_structures:librarian/1/secret_sealing_hydro_veil",
+    "nova_structures:librarian/1/secret_sealing_swift_soar",
+    "nova_structures:librarian/1/secret_sealing_wither_coated",
+    "nova_structures:librarian/1/secret_snowy_aerials_bane",
+    "nova_structures:librarian/1/secret_snowy_might",
+    "nova_structures:librarian/1/secret_snowy_wind_burst",
+    "nova_structures:librarian/1/secret_swamp_antidote",
+    "nova_structures:librarian/1/secret_swamp_blowthrough",
+    "nova_structures:librarian/1/secret_swamp_tri-shot",
+    "nova_structures:librarian/1/secret_traveler_traveler",
+    "nova_structures:librarian/1/secret_witch_conductivity_curse"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "nova_structures:town_center",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/danger/creaking_heart",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/danger/creaking_heart_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		}
+	]
+}

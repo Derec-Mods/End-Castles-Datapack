@@ -312,15 +312,6 @@
 			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
-				"location": "nova_structures:end_castle/tower/spiral2_curve_2",
-				"projection": "rigid",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
 				"location": "nova_structures:end_castle/tower/spiral2_curve_3",
 				"projection": "rigid",
 				"processors": "minecraft:empty"

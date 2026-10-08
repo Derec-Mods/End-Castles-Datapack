@@ -1,0 +1,14 @@
+{
+	"name": "nova_structures:illager_barracks/foundation_plank",
+	"fallback": "nova_structures:illager_barracks/foundation_plank",
+	"elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:dark_oak_planks_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

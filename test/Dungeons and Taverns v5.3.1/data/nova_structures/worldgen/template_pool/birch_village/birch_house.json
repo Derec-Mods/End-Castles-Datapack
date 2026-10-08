@@ -1,0 +1,318 @@
+{
+	"name": "minecraft:jungle_house",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_animal_pen_1",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_animal_pen_2",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_animal_pen_3",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_armoursmith",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_butcher",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_cartographer",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_temple",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_farm_1",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_fisher",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_farm_2",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_farm_3",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_fletcher",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_toolsmith",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_tannery",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_house_1",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor_house"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor_house"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_house_3",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor_house"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_house_4",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor_house"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_house_5",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor_house"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_house_6",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor_house"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_house_7",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor_house"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_house_8",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor_house"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_library",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_shepert",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_weaponsmith",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_mason",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"element": {
+			"element_type": "minecraft:empty_pool_element"
+			},
+			"weight": 10
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_deco_1",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_deco_2",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_deco_3",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_deco_4",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_deco_5",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_deco_6",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_deco_7",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:village/birch/birch_deco_8",
+				"projection": "rigid",
+				"processors": "nova_structures:birch_village_processor"
+			}
+		}
+	]
+}

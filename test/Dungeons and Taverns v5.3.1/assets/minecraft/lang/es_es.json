@@ -1,0 +1,16 @@
+{
+    "item.minecraft.lingering_potion.effect.dnt_blindness": "Poción persistente de Ceguera",
+    "item.minecraft.lingering_potion.effect.dnt_mining_fatigue": "Poción persistente de Fatiga Minera",
+    "item.minecraft.lingering_potion.effect.dnt_levitation": "Poción persistente de Levitación",
+    "item.minecraft.lingering_potion.effect.dnt_nausea": "Poción persistente de Náuseas",
+    "item.minecraft.lingering_potion.effect.dnt_wither": "Poción persistente de Descomposición",
+    "item.minecraft.potion.effect.dnt_levitation": "Poción de Levitación",
+    "item.minecraft.potion.effect.dnt_wither": "Poción de Descomposición",
+    "item.minecraft.splash_potion.effect.dnt_dolphins_grace": "Poción arrojadiza del delfín",
+    "item.minecraft.splash_potion.effect.dnt_levitation": "Poción arrojadiza de levitación",
+    "item.minecraft.splash_potion.effect.dnt_water_breathing": "Poción arrojadiza de respiración acuática",
+    "item.minecraft.splash_potion.effect.dnt_wither": "Poción arrojadiza de descomposición",
+    "item.minecraft.tipped_arrow.effect.dnt_levitation": "Flecha de levitación",
+    "item.minecraft.tipped_arrow.effect.dnt_nausea": "Flecha de náuseas",
+    "item.minecraft.tipped_arrow.effect.dnt_wither": "Flecha de descomposición"
+}

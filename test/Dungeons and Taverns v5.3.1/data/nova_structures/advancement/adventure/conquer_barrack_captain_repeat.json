@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "defeat_barrack_captain_repeat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nova_structures:adventure/conquer_barrack_captain": true
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:evoker",
+          "nbt": "{Tags:[\"dnt_barrack_captain\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:dnt_barrack_captain_repeat"
+  }
+}

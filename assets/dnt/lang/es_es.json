@@ -1,0 +1,21 @@
+{
+  "advancement.dnt.loot_bug_enchant": "Has obtenido un encantamiento de uso interno. No están pensados para el jugador, ¡así que se convierten en Perdición de los Artrópodos en tu inventario!",
+  "advancement.dnt.loot_bug_enchant.title": "¿Cómo ha llegado eso ahí?",
+  "advancement.dnt.end.find_end_castle": "Desafía al Castillo del End",
+  "advancement.dnt.end.find_end_castle.title": "Ojo espía",
+  "advancement.dnt.end.find_end_lighthouse": "Localiza un Faro del End",
+  "advancement.dnt.end.find_end_lighthouse.title": "La luz al final del juego",
+  "advancement.dnt.end.find_end_ship": "Sube a bordo de un Barco del End solitario",
+  "advancement.dnt.end.find_end_ship.title": "En tránsito",
+  "advancement.dnt.end.kill_phantom_boss.title": "¿Miedo a las alturas?",
+  "advancement.dnt.end.kill_phantom_boss": "Mata al Subjefe Espectral del Castillo del End",
+  "advancement.dnt.story.librarian_end_castle": "Sube de nivel a un Bibliotecario Novato en el Castillo del End y comercia su libro exclusivo",
+  "advancement.dnt.story.librarian_end_castle.title": "Registros del vacío",
+  "item.dnt.end_castle_key": "Llave del Castillo del End",
+  "item.dnt.end_ship_key": "Llave del Barco del End",
+  "item.dnt.chart.end_castle": "Carta del Castillo del End",
+  "item.dnt.filled_map.end_castle": "Mapa del Castillo del End",
+  "structure.dnt.end_castle": "Castillo del End",
+  "structure.dnt.end_lighthouse": "Faro del End",
+  "structure.dnt.end_ship": "Barco del End"
+}

@@ -1,0 +1,22 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "separation": 16,
+    "spacing": 51
+  },
+  "structures": [
+    {
+      "structure": "nova_structures:village_birch",
+      "weight": 1
+    },
+	{
+      "structure": "nova_structures:village_jungle",
+      "weight": 1
+    },
+	{
+      "structure": "nova_structures:village_swamp",
+      "weight": 1
+    }
+  ]
+}

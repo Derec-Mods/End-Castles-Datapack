@@ -1,0 +1,60 @@
+{
+	"name": "nova_structures:creeping_crypt/vault",
+	"fallback": "nova_structures:creeping_crypt/vault",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/cc_vault",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/cc_hallawy_azalea",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/cc_hallway_pot",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 30,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/cc_hallway_chest_trap_1",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 30,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/cc_hallway_chest_trap_2",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 30,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/cc_hallway_chest",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		}
+	]
+}

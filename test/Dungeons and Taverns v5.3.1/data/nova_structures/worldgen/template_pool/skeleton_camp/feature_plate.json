@@ -1,0 +1,33 @@
+{
+	"name": "nova_structures:skeleton_camp/feature_plate",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:skeleton_camp/stray/camp_feature_plate_stray",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:skeleton_camp/bogged/camp_feature_plate_bogged",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:skeleton_camp/parched/camp_feature_plate_parched",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone_wall"
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.find_illager_barracks.title",
+      "fallback": "Ill Intentions"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.find_illager_barracks",
+      "fallback": "Infiltrate an Illager Barracks"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "nova_structures:adventure/find_all_illager_structures",
+  "criteria": {
+    "find_illager_barracks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "nova_structures:illager_barracks"
+          }
+        }
+      }
+    }
+  }
+}

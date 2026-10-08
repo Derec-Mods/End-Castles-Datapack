@@ -1,0 +1,219 @@
+{
+	"name": "nova_structures:illager_camp_fire",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"element": {
+			"element_type": "minecraft:empty_pool_element"
+			},
+			"weight": 150
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/big_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/big_wargon_1",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/big_wargon_2",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/big_wargon_3",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/medium_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/pillaging_spoils_1",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/pillaging_spoils_2",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/pillaging_spoils_3",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/pillaging_spoils_4",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/ravager_pen",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/small_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/tent_large",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/camp",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/small_wargon",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/jail_1",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/jail_2",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/jail_3",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/jail_4",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/wood_supply",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/target_1",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/target_2",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/tent_1",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:illager_barracks/features/tent_2",
+				"projection": "rigid",
+				"processors": "nova_structures:illager_barracks_degradation"
+			}
+		}
+	]
+}

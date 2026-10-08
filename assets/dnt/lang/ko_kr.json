@@ -1,0 +1,21 @@
+{
+  "advancement.dnt.loot_bug_enchant": "펑션에만 사용되는 마법부여 효과를 얻었습니다. 플레이어를 위한 것이 아닙니다. 그런 고로 여러분의 인벤토리에서는 살충으로 변한답니다!",
+  "advancement.dnt.loot_bug_enchant.title": "어케했노?",
+  "advancement.dnt.end.find_end_castle": "엔드 성채에 도전하세요",
+  "advancement.dnt.end.find_end_castle.title": "스무고개 너머",
+  "advancement.dnt.end.find_end_lighthouse": "엔드 등대를 발견하세요",
+  "advancement.dnt.end.find_end_lighthouse.title": "게임의 끝에서 만난 빛",
+  "advancement.dnt.end.find_end_ship": "혼자 떨어져있는 엔드 배에 탑승하세요",
+  "advancement.dnt.end.find_end_ship.title": "수송 중",
+  "advancement.dnt.end.kill_phantom_boss.title": "고소공포증 있니?",
+  "advancement.dnt.end.kill_phantom_boss": "엔드 성채의 미니보스 헌팅을 무찌르세요",
+  "advancement.dnt.story.librarian_end_castle": "엔드 성채에 있는 초심자 사서를 레벨업 시키고, 독점 판매중인 책을 구매하세요",
+  "advancement.dnt.story.librarian_end_castle.title": "공허의 기록들",
+  "item.dnt.end_castle_key": "엔드 성채 열쇠",
+  "item.dnt.end_ship_key": "엔드 배 열쇠",
+  "item.dnt.chart.end_castle": "엔드 성채 차트",
+  "item.dnt.filled_map.end_castle": "엔드 성채 지도",
+  "structure.dnt.end_castle": "엔드 성채",
+  "structure.dnt.end_lighthouse": "엔드 등대",
+  "structure.dnt.end_ship": "엔드 배"
+}

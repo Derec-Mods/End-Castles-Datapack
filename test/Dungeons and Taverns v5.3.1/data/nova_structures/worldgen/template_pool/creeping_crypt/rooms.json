@@ -1,0 +1,330 @@
+{
+	"name": "nova_structures:creeping_crypt/rooms",
+	"fallback": "nova_structures:creeping_crypt/room_fail",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_small_hallway_1",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_small_hallway_2",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_medium_hallway_1",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_medium_hallway_2",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_long_hallway_1",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_long_hallway_2",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_curve_1",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_curve_2",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_curve_3",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_double_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_staircase_1",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_staircase_2",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_staircase_3",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_deadend_1",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_deadend_2",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_deadend_3",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_endroom_arena",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_endroom_vault",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_arena",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_creeper_arena",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_tall_arena",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_zombie_arena",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_skeleton_arena",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_spider_room",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_s_room",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_roomcomplex_1",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_roomcomplex_2",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_roomcomplex_3",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_roomcomplex_4",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_roomcomplex_5",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_roomcomplex_6",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_roomcomplex_7",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_roomcomplex_8",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_2_crypts_room",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/cc_3_room_arena",
+				"projection": "rigid",
+				"processors": "nova_structures:creeping_crypt_degradation"
+			}
+		}
+	]
+}

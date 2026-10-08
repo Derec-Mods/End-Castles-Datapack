@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.librarian_nether_keep.title",
+      "fallback": "Volumes of the Fortress"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.librarian_nether_keep",
+      "fallback": "Trade for a Novice Librarian's exclusive book found via taking them to the Nether Keep"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:nether/find_keep",
+  "criteria": {
+    "dnt_trade_enchant_keep": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "structures": "#nova_structures:offers_trades_keep"
+          }
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/keep"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dnt_trade_enchant_keep"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,51 @@
+{
+	"name": "nova_structures:bunker_room",
+	"fallback": "nova_structures:bunker_room_fail",
+	"elements": [
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_stairs_1",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_stairs_2",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_stairs_3",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_stairs_4",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_stairs_5",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		}
+	]
+}
